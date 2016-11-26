@@ -6,19 +6,16 @@ title = "About"
 tags = ["myself", "info"]
 +++
 
-Svett is an accomplished full-stack software engineer, open source contributor
-and project leader. He has hands on experience in building everything from the
-ground to the clouds. For the last 10+ years, he is heavy weight champion in
-design, development and delivering a low level critical systems, scalable
-platforms as service, reliable infrastructure, front-end desktop, web and
-mobile applications.
+Oliver is a software engineer and occasional entrepreneur, currently working with Google in London.
+He is interested in ambitious projects requiring elegant solutions to meaningful problems.
 
-He enjoys coding in Go, Ruby, Swift, Objective-C, C# both at work and in his spare
-time.
+His key area of interest is in automation - not just testing execution, but also development, design
+and even requirements and test specification.
 
-You can clone his curriculum vitae or visit his [#website](http://www.ralch.com):
+He enjoys building things with Java, JavaScript, and occasionally Go, but wishes he could spare more
+time for Haskell.
 
-```bash
-$ git clone https://github.com/svett/whoami
-```
+Read more on his [LinkedIn profile][linkedin].
+
+[linkedin]: https://au.linkedin.com/in/oliverlade
 

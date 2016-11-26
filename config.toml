@@ -1,23 +1,20 @@
-baseurl = "http://blog.ralch.com"
-languageCode = "en-us"
+baseurl = "http://orlade.github.io"
+languageCode = "en-au"
 title = "Software adventures and thoughts"
 theme = "hyde"
 Paginate = 5
 
 [Author]
-	name = "Svett Ralchev"
+ name = "Oliver Lade"
 
 [Permalinks]
  post = "/:year/:month/:filename/"
  tutorials = "/:filename/"
 
 [params]
- info = "http://www.ralch.com"
- twitter = "https://twitter.com/ralch"
- github = "https://github.com/svett"
- linkedin = "http://uk.linkedin.com/in/svettralchev"
- disqus = "ralch"
- googletrackingid = "UA-62134307-2"
- domain = "blog.ralch.com"
-
-
+ info = "http://www.orlade.github.io"
+ github = "https://github.com/orlade"
+ linkedin = "https://au.linkedin.com/in/oliverlade"
+ disqus = "orlade"
+ googletrackingid = ""
+ domain = "github.orlade.io"
