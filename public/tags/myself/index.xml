@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software adventures and thoughts</title>
+    <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://orlade.github.io/tags/myself/index.xml</link>
+    <language>en-au</language>
+    <author>Oliver Lade</author>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>About</title>
+      <link>http://orlade.github.io/about/</link>
+      <pubDate>Sat, 11 Apr 2015 17:53:10 BST</pubDate>
+      <author>Oliver Lade</author>
+      <guid>http://orlade.github.io/about/</guid>
+      <description>&lt;p&gt;Oliver is a software engineer and occasional entrepreneur, currently working with Google in London.
+He is interested in ambitious projects requiring elegant solutions to meaningful problems.&lt;/p&gt;
+
+&lt;p&gt;His key area of interest is in automation - not just testing execution, but also development, design
+and even requirements and test specification.&lt;/p&gt;
+
+&lt;p&gt;He enjoys building things with Java, JavaScript, and occasionally Go, but wishes he could spare more
+time for Haskell.&lt;/p&gt;
+
+&lt;p&gt;Read more on his &lt;a href=&#34;https://au.linkedin.com/in/oliverlade&#34;&gt;LinkedIn profile&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

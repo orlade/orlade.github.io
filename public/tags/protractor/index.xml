@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software adventures and thoughts</title>
+    <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://orlade.github.io/tags/protractor/index.xml</link>
+    <language>en-au</language>
+    <author>Oliver Lade</author>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Running Protractor scenarios in parallel</title>
+      <link>http://orlade.github.io/2015/09/protractor-scenarios-parallel/</link>
+      <pubDate>Sun, 20 Sep 2015 14:58:56 BST</pubDate>
+      <author>Oliver Lade</author>
+      <guid>http://orlade.github.io/2015/09/protractor-scenarios-parallel/</guid>
+      <description>
+
+&lt;p&gt;Protractor can run tests in parallel, but only one feature file per Selenium instance. If a single
+feature file has more than one scenario, they cannot be parallelised out of the box.&lt;/p&gt;
+
+&lt;p&gt;One solution to run scenarios in parallel is to write each new scenario in a new &lt;code&gt;.feature&lt;/code&gt; file.
+However this breaks the natural grouping that feature files provide, and besides, it may already be
+too late if your team has many multi-scenario features.&lt;/p&gt;
+
+&lt;p&gt;The alternative is to only &amp;ldquo;flatten&amp;rdquo; these scenarios into separate feature files just before running
+Protractor, and then cleaning them up afterwards.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-process&#34;&gt;The Process&lt;/h1&gt;
+
+&lt;p&gt;TODO: Walk through &lt;code&gt;flatten.js&lt;/code&gt; and &lt;code&gt;flattener.js&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;optimization&#34;&gt;Optimization&lt;/h1&gt;
+
+&lt;p&gt;Okay, so we have improved our testing framework to run all of our scenarios in parallel, no matter
+how we structure our feature files. But there is still room for improvement.&lt;/p&gt;
+
+&lt;p&gt;Protractor creates a new Selenium instance for each feature file that it processes. This means that
+if you have a fixed maximum number of Selenium instances which is less than the number of scenarios,
+simply flattening scenarios one per feature file will be inefficient: each of the instances will be
+set up and torn down multiple times per run, incurring a few seconds of overhead each time.&lt;/p&gt;
+
+&lt;p&gt;The solution, given &lt;em&gt;N&lt;/em&gt; maximum Selenium instances, is to pack the scenarios into &lt;em&gt;N&lt;/em&gt; feature files.
+This way, each Selenium instance will only be set up and torn down once.&lt;/p&gt;
+
+&lt;p&gt;New problem: packing scenarios naively (e.g. randomly) will be inefficient, since the test suite
+will take as long as the longest-running feature file. Ideally, all feature files would take roughly
+the same amount of time to run through all of their scenarios.&lt;/p&gt;
+
+&lt;p&gt;It is impossible to determine the optimal packing a priori, since individual steps can take vastly
+different amounts of time, and even the same step may behave differently depending on application
+context. As such, it is necessary to first run the tests, record the durations of each scenario, and
+then use the duration data to pack scenarios so that the sums of the durations per feature file are
+roughly equal (this is the multi-way number partitioning problem; see &lt;a href=&#34;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.150.2326&amp;amp;rep=rep1&amp;amp;type=pdf&#34;&gt;Korf, 2009&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;This packing strategy may be customized to whatever environment you run your tests in. For example,
+if you have heterogeneous hardware (some machines faster than others), you may be able to force
+certain features to run on the slower machines, and pack fewer scenarios into them.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
