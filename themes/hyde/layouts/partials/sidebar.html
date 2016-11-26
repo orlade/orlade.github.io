@@ -9,10 +9,12 @@
 
     <ul class="sidebar-nav">
       <li><a href="/">Home</a></li>
-      <li><a href="/tutorial">Tutorials</a></li>
       {{ range .Site.Menus.main }}
       <li><a href="{{.URL}}">{{ .Name }} </a></li>
       {{end}}
+      <!--<li><a href="/tutorials">Tutorials</a></li>-->
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/ideas">Ideas</a></li>
     </ul>
       {{ with .Site.Params.linkedin }}<a href="{{.}}"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;{{end}}
       {{ with .Site.Params.info }}<a href="{{.}}"><i class="fa fa-link"></i></a>&nbsp;&nbsp;{{end}}
