@@ -1,20 +1,17 @@
+Paginate = 5
 baseurl = "http://orlade.github.io"
 languageCode = "en-au"
-title = "Software adventures and thoughts"
 theme = "hyde"
-Paginate = 5
-
+title = "Software adventures and thoughts"
 [Author]
- name = "Oliver Lade"
-
+name = "Oliver Lade"
 [Permalinks]
- post = "/:year/:month/:filename/"
- tutorials = "/:filename/"
-
+post = "/:year/:month/:filename/"
+tutorials = "/:filename/"
 [params]
- info = "http://www.orlade.github.io"
- github = "https://github.com/orlade"
- linkedin = "https://au.linkedin.com/in/oliverlade"
- disqus = "orlade"
- googletrackingid = ""
- domain = "github.orlade.io"
+disqus = "orlade"
+domain = "github.orlade.io"
+github = "https://github.com/orlade"
+googletrackingid = ""
+info = "http://www.orlade.github.io"
+linkedin = "https://au.linkedin.com/in/oliverlade"

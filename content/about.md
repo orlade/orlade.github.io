@@ -1,11 +1,12 @@
 +++
 Description = ""
 date = "2015-04-11T17:53:10+01:00"
-menu = "main"
-title = "About"
+draft = false
 tags = ["myself", "info"]
-+++
+title = "About"
+type = "page"
 
++++
 Oliver is a software engineer and occasional entrepreneur, currently working with Google in London.
 He is interested in ambitious projects requiring elegant solutions to meaningful problems.
 
