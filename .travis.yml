@@ -1,0 +1,22 @@
+# See https://blog.christophvoigt.com/setting-up-hugo-with-github-pages/
+language: go
+
+env:  
+  global:
+    - GIT_DEPLOY_DIR=public
+    - GIT_DEPLOY_BRANCH=master
+    - GIT_DEPLOY_USERNAME="Travis CI"
+    - GIT_DEPLOY_EMAIL=piemaster21@gmail.com
+
+branches:
+  only:
+    - develop
+
+install:
+  - go get -v github.com/spf13/hugo  
+  - rm -rf public || exit 0
+script:  
+  - binaries/hugo
+after_success:  
+  - cp .travis.yml public
+  - bash deploy.sh
