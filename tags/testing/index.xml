@@ -3,7 +3,7 @@
   <channel>
     <title>Software adventures and thoughts</title>
     <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://orlade.github.io/tags/testing/index.xml</link>
+    <link>https://orlade.github.io/tags/testing/index.xml</link>
     <language>en-au</language>
     <author>Oliver Lade</author>
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Running Protractor scenarios in parallel</title>
-      <link>http://orlade.github.io/2015/09/protractor-scenarios-parallel/</link>
+      <link>https://orlade.github.io/2015/09/protractor-scenarios-parallel/</link>
       <pubDate>Sun, 20 Sep 2015 14:58:56 &#43;0100</pubDate>
       <author>Oliver Lade</author>
-      <guid>http://orlade.github.io/2015/09/protractor-scenarios-parallel/</guid>
+      <guid>https://orlade.github.io/2015/09/protractor-scenarios-parallel/</guid>
       <description>
 
 &lt;p&gt;Protractor can run tests in parallel, but only one feature file per Selenium instance. If a single

@@ -2,33 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://orlade.github.io/</loc>
+    <loc>https://orlade.github.io/ideas/crowdpolish/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://orlade.github.io/ideas/crowdpolish/</loc>
+    <loc>https://orlade.github.io/projects/fabric/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://orlade.github.io/projects/fabric/</loc>
+    <loc>https://orlade.github.io/2016/11/what-is-automation/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://orlade.github.io/2016/11/what-is-automation/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://orlade.github.io/2015/09/protractor-scenarios-parallel/</loc>
+    <loc>https://orlade.github.io/2015/09/protractor-scenarios-parallel/</loc>
     <lastmod>2015-09-20T14:58:56+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://orlade.github.io/about/</loc>
+    <loc>https://orlade.github.io/about/</loc>
     <lastmod>2015-04-11T17:53:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/automation/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/automation/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/ideas/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/ideas/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/info/</loc>
+    <lastmod>2015-04-11T17:53:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/myself/</loc>
+    <lastmod>2015-04-11T17:53:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/post/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/productivity/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/programming/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/projects/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/projects/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/protractor/</loc>
+    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/software/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/startup/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/testing/</loc>
+    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/categories/testing/</loc>
+    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/urbanetic/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://orlade.github.io/tags/web/</loc>
+    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

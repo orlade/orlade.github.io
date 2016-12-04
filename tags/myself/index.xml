@@ -3,7 +3,7 @@
   <channel>
     <title>Software adventures and thoughts</title>
     <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://orlade.github.io/tags/myself/index.xml</link>
+    <link>https://orlade.github.io/tags/myself/index.xml</link>
     <language>en-au</language>
     <author>Oliver Lade</author>
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>About</title>
-      <link>http://orlade.github.io/about/</link>
+      <link>https://orlade.github.io/about/</link>
       <pubDate>Sat, 11 Apr 2015 17:53:10 &#43;0100</pubDate>
       <author>Oliver Lade</author>
-      <guid>http://orlade.github.io/about/</guid>
+      <guid>https://orlade.github.io/about/</guid>
       <description>&lt;p&gt;Oliver is a software engineer and occasional entrepreneur, currently working with Google in London.
 He is interested in ambitious projects requiring elegant solutions to meaningful problems.&lt;/p&gt;
 
