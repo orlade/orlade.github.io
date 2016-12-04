@@ -5,11 +5,14 @@ branches:
   only:
     - develop
 
+env:
+  global:
+    secure: "WuLkcMOqsTHsYC+CiNb6NXoeeUuXfwMR7pPZp5PCvb7YO4CVL4adJmViH3ECWCTW3TRLs7Yyvs6cNodP1IVSAOYHYpxhLCeBllEoAcXh0gUKlrAhkacMcI3hPsE5rpk6GCUZUkyBEZ/6Tk+5HGfVn3wrwxHcAeIyBkhvii8W3BIUCBHEAOW6osx+fvLkV7TCIoCW4+jImYQrap1OOJOF6Us3UI/d1LTaf/KF9Lxk3pT1Q/Dc65gVnZiprWEpqk74o/o8IE7oMCIorZgeugrVIHN7uKDSYt9pFt+WA4xKsbKoEQHaAiwQuA3BEhcuUIAav3nadplmPLhRETaZ9oZqrCuQVUxhCGtiYABluH7LV53cGSTSHCnduGMSmLhl9X/0Ip1aTFqb+M7Zt40OXCRei0ZaH3blC9Uo+2+MTXTtA9fDo6fuClp9hd6tIySYevyrX8KgIqW6S9D5/gYfgmYXqBoaPGB8vxRKM/rK5Z0wp3MhX8bHC6gBxl76B/G0f9rTnNGfX3BCf7dyGnaivnE9ZDfSonpoxrjYYFRabaPuf2BxNojwi7WvnDC9WHOi9hsXmGMdMRy1DddIpdLbPxCFl1YxjeSK6KrqpRoE0wYpoNZiy/MLGanJOmj+7XSTDGJwAITJ0SSw34mlhGXR38Epv2uUkiEX6RX/jCroBZWjmRo="
+
 install:
   - go get -v github.com/spf13/hugo  
   - rm -rf public || exit 0
 script:  
   - hugo
-after_success:  
   - cp .travis.yml public
   - bash deploy.sh
