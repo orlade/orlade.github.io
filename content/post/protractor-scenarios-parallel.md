@@ -1,11 +1,11 @@
 +++
 Description = ""
-categories = ["testing"]
+categories = ["tutorial"]
 comments = "yes"
 date = "2015-09-20T14:58:56+01:00"
-draft = false
+draft = true
 share = "yes"
-tags = ["protractor", "testing"]
+tags = ["protractor", "testing", "javascript", "selenium"]
 title = "Running Protractor scenarios in parallel"
 
 +++
