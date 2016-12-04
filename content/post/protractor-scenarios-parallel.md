@@ -1,13 +1,14 @@
 +++
 Description = ""
+categories = ["testing"]
 comments = "yes"
 date = "2015-09-20T14:58:56+01:00"
+draft = false
 share = "yes"
-title = "Running Protractor scenarios in parallel"
 tags = ["protractor", "testing"]
-categories = ["testing"]
-+++
+title = "Running Protractor scenarios in parallel"
 
++++
 Protractor can run tests in parallel, but only one feature file per Selenium instance. If a single
 feature file has more than one scenario, they cannot be parallelised out of the box.
 
