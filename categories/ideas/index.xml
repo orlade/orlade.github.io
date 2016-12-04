@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software adventures and thoughts</title>
+    <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>https://orlade.github.io/categories/ideas/index.xml</link>
+    <language>en-au</language>
+    <author>Oliver Lade</author>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Crowdpolish</title>
+      <link>https://orlade.github.io/ideas/crowdpolish/</link>
+      <pubDate>Mon, 21 Nov 2016 22:03:54 &#43;0100</pubDate>
+      <author>Oliver Lade</author>
+      <guid>https://orlade.github.io/ideas/crowdpolish/</guid>
+      <description>&lt;p&gt;Users can suggest edits to any Web content.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
