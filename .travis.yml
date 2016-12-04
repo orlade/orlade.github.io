@@ -16,7 +16,7 @@ install:
   - go get -v github.com/spf13/hugo  
   - rm -rf public || exit 0
 script:  
-  - binaries/hugo
+  - hugo
 after_success:  
   - cp .travis.yml public
   - bash deploy.sh
