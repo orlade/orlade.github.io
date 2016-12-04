@@ -17,11 +17,6 @@
   </url>
   
   <url>
-    <loc>https://orlade.github.io/2015/09/protractor-scenarios-parallel/</loc>
-    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://orlade.github.io/about/</loc>
     <lastmod>2015-04-11T17:53:10+01:00</lastmod>
   </url>
@@ -98,12 +93,6 @@
   </url>
   
   <url>
-    <loc>https://orlade.github.io/tags/protractor/</loc>
-    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://orlade.github.io/tags/software/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
     <priority>0</priority>
@@ -123,18 +112,6 @@
   
   <url>
     <loc>https://orlade.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/tags/testing/</loc>
-    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/categories/testing/</loc>
-    <lastmod>2015-09-20T14:58:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
