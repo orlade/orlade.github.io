@@ -1,5 +1,5 @@
-Paginate = 5
-baseurl = "http://orlade.github.io"
+Paginate = 10
+baseurl = "https://orlade.github.io"
 languageCode = "en-au"
 theme = "hyde"
 title = "Software adventures and thoughts"
@@ -13,5 +13,5 @@ disqus = "orlade"
 domain = "github.orlade.io"
 github = "https://github.com/orlade"
 googletrackingid = ""
-info = "http://www.orlade.github.io"
+info = "https://orlade.github.io"
 linkedin = "https://au.linkedin.com/in/oliverlade"
