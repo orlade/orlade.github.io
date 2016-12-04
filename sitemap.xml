@@ -12,25 +12,8 @@
   </url>
   
   <url>
-    <loc>https://orlade.github.io/2016/11/what-is-automation/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://orlade.github.io/about/</loc>
     <lastmod>2015-04-11T17:53:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/tags/automation/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/categories/automation/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -63,24 +46,6 @@
   </url>
   
   <url>
-    <loc>https://orlade.github.io/post/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/tags/productivity/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/categories/programming/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://orlade.github.io/categories/projects/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
     <priority>0</priority>
@@ -88,12 +53,6 @@
   
   <url>
     <loc>https://orlade.github.io/projects/</loc>
-    <lastmod>2016-11-21T22:03:54+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://orlade.github.io/tags/software/</loc>
     <lastmod>2016-11-21T22:03:54+01:00</lastmod>
     <priority>0</priority>
   </url>
