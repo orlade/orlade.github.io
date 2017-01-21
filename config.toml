@@ -1,0 +1,17 @@
+Paginate = 10
+baseurl = "https://orlade.github.io"
+languageCode = "en-au"
+theme = "hyde"
+title = "Software adventures and thoughts"
+[Author]
+name = "Oliver Lade"
+[Permalinks]
+post = "/:year/:month/:filename/"
+tutorials = "/:filename/"
+[params]
+disqus = "orlade"
+domain = "github.orlade.io"
+github = "https://github.com/orlade"
+googletrackingid = ""
+info = "https://orlade.github.io"
+linkedin = "https://au.linkedin.com/in/oliverlade"
